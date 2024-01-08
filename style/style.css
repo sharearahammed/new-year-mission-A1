@@ -388,10 +388,10 @@
     display: block;
     padding: 120px 291px 50px 0;
 }
-.contact ul .li1{
+.contact ul .li-one{
     list-style-image: url('../resources/Call.png');
 }
-.contact ul .li2{
+.contact ul .li-two{
     list-style-image: url('../resources/Website.png');
 }
 
