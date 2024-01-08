@@ -96,16 +96,19 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    padding: 24px 420px 0 126px;
+    padding: 24px 420px 48px 126px;
 }
 
-.section-two-footer {
+
+.section-two-footer a{
+    text-decoration: none;
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 48px 0 0 158px;
+    margin-left: 158px;
+    
 }
 
 .section-three {
@@ -139,6 +142,9 @@
     align-items: center;
     gap: 10px;
     border: 0;
+}
+.button:hover {
+    background: rgba(255, 0, 0, 0.707);
 }
 
 .section-four {
@@ -334,7 +340,7 @@
     color: #757575;
     background: #FFFFFF;
     border: 0;
-    width: 648 px;
+    width: 648px;
     height: 72px;
     border-radius: 50px 0 0 50px;
 
@@ -353,6 +359,10 @@
     height: 72px;
 
 }
+.section-seven-foot button:hover {
+    background: rgba(255, 0, 0, 0.703);
+}
+
 
 /* footer section */
 .footer {
