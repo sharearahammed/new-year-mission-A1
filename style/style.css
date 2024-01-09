@@ -80,16 +80,22 @@
     height: 600px;
     border-radius: 16px;
     margin: 120px 140px 120px 140px;
+}
+.section-two-contain{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.section-two-container-one{
+    justify-content: center;
+    padding: 126px 56px 142px 126px;
 }
 
 .section-two-header {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    padding: 0 552px 0 126px;
+    /* padding: 126px 94.17px 24px 126px; */
 }
 
 .section-two-para {
@@ -97,7 +103,8 @@
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    padding: 24px 420px 48px 126px;
+    padding-top: 24px;
+    padding-bottom: 48px;
 }
 
 
@@ -108,8 +115,11 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-left: 158px;
+    padding-left:32px ;
     
+}
+.section-two-image{
+   padding: 68.11px 138px 67.23px 0;
 }
 
 .section-three {
@@ -155,7 +165,7 @@
 .section-four-contain {
     display: flex;
     align-items: center;
-
+    gap: 100px;
 }
 
 .section-four-container {
@@ -385,14 +395,10 @@
 }
 
 .contact {
-    display: block;
     padding: 120px 291px 50px 0;
 }
-.contact ul .li-one{
-    list-style-image: url('../resources/Call.png');
-}
-.contact ul .li-two{
-    list-style-image: url('../resources/Website.png');
+.inline-block-container{
+    display: flex;
 }
 
 .hr {
